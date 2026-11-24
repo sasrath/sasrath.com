@@ -1,6 +1,7 @@
 {
   "name": "sasrath",
   "compatibility_date": "2026-11-24",
+  "routes": [{ "pattern": "sasrath.com", "custom_domain": true }],
   "assets": {
     "directory": ".",
     "not_found_handling": "404-page"
