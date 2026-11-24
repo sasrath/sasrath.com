@@ -170,3 +170,30 @@ footer { margin-top: 4rem; padding-top: 1.25rem; border-top: 1px solid var(--lin
   .posts time { grid-column: 2; }
 }
 .notfound { padding-top: 4rem; }
+
+/* Experience and education */
+.chips { list-style: none; display: flex; flex-wrap: wrap; gap: 0.45rem; margin: 0 0 1.75rem; padding: 0; }
+.chips li { padding: 0.25rem 0.7rem; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); font-size: 0.85rem; }
+.timeline { list-style: none; margin: 0; padding: 0 0 0 1.5rem; border-left: 2px solid var(--line); }
+.timeline li { position: relative; padding: 0 0 1.5rem; }
+.timeline li::before {
+  content: "";
+  position: absolute;
+  left: calc(-1.5rem - 6px);
+  top: 0.45rem;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  background: var(--bg);
+  border: 2px solid var(--accent);
+}
+.timeline li:first-child::before { background: var(--accent); }
+.timeline h3, .edu h3 { margin: 0; }
+.pos { margin: 0.1rem 0 0; }
+.when { margin: 0.15rem 0 0; color: var(--muted); font-size: 0.875rem; }
+.domains { margin: 0.25rem 0 0; color: var(--muted); font-size: 0.95rem; }
+.domains strong { color: var(--text); font-weight: 600; }
+.edu { list-style: none; margin: 0 0 1.25rem; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); gap: 1rem; }
+.edu li { padding: 1.15rem 1.3rem; background: var(--surface); border: 1px solid var(--line); border-radius: 0.9rem; }
+.edu p { margin: 0.2rem 0 0; }
+.badge { margin-left: 0.4rem; padding: 0.05rem 0.5rem; border-radius: 999px; background: var(--accent); color: var(--on-accent); font-size: 0.75rem; font-weight: 600; }
