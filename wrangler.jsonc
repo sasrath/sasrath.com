@@ -1,0 +1,8 @@
+{
+  "name": "sasrath",
+  "compatibility_date": "2026-11-24",
+  "assets": {
+    "directory": ".",
+    "not_found_handling": "404-page"
+  }
+}

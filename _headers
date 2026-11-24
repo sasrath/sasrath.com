@@ -5,5 +5,5 @@
   Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
   Strict-Transport-Security: max-age=31536000
 
-https://:project.pages.dev/*
+https://sasrath.sasanka-rath.workers.dev/*
   X-Robots-Tag: noindex
